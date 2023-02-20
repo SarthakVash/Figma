@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.ready{
+    padding-top: 3rem;
+}
+
+.signup{
+    border: 2px solid black;
+    padding: 3rem;
+    width: 40%;
+    margin-top: 4rem;
+}
+
+.signup h5{
+    font-weight: bolder;
+}
+
+.container-fluid .signup .mail input{
+    width: 77.5%;
+    height: 2rem;
+}
+
+.container-fluid .signup .mail, .password{
+    padding-top: 1rem;
+}
+
+.container-fluid .signup .name{
+    padding-top: 1rem;
+}
+
+.container-fluid .signup .name input{
+    height: 2rem;
+}
+
+.container-fluid .signup .password input{
+    width: 77.5%;
+    height: 2rem;
+}
+
+.container-fluid .signup .button{
+    margin-top: 1rem;
+}
+

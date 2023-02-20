@@ -1,0 +1,290 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.photo{
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    padding-top: 1.3rem;
+}
+
+
+.Features a{
+    margin-left: 10px;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+.buttonss{
+    text-align: center;
+}
+
+.buttonss button{
+    width: 25%;
+}
+
+.largest{
+    text-align: center;
+    height: 100%;
+    width: 100%;
+}
+
+.largest iframe{
+    width: 100%;
+    height: 45rem;
+    position: relative;
+}
+
+.largest .join_today{
+    position: absolute;
+    bottom: 5%;
+    left: 23%;
+}
+
+.largest i{
+    font-size: 4rem;
+    color: blue;
+}
+
+.largest h1{
+    margin: 2rem 0 2rem 0;
+}
+
+.photos{
+    padding: 5rem 1rem 4rem 1rem;
+}
+
+.photos h2{
+width: 50%;
+}
+
+.photos .boxes .box{
+    padding-top: 2rem;
+}
+
+.box2{
+    height: 12rem;
+}
+
+.box2 .colour{
+    height: 12rem;
+    background-color: #d8d9d8;
+}
+
+.box2 .amet{
+    height: 12rem;
+    padding: 1rem;
+}
+
+.box_2{
+    height: 12rem;
+}
+
+.box_2 .row{
+    padding-top: 3rem;
+}
+
+.box_2 .colour{
+    height: 12rem;
+    background-color: #d8d9d8;
+}
+
+.box_2 .amet{
+    height: 12rem;
+    padding: 1rem;
+}
+
+
+.box3{
+    padding-top: 7rem;
+    text-align: center;
+}
+
+.box3 .colour{
+    height: 4rem;
+    background-color: #d8d9d8;
+}
+
+.box4{
+    height: 12rem;
+    background-color: #d8d9d8;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+}
+
+.box4 .buttons .contact:hover{
+    color: black;
+}
+
+.box5{
+    text-align: center;
+    margin-top: 4rem;
+}
+
+.box5 a{
+    text-decoration: none;
+    margin-right: 20px;
+    color: black;
+    font-weight: bolder;
+}
+
+.box6{
+    text-align: center;
+    padding: 4rem 0 5rem 0;
+}
+
+.box6 img{
+    height: 5rem;
+    width: 5rem;
+    border-radius: 100%;
+    margin-left: 1rem;
+    margin-bottom: 2rem;
+}
+
+
+
+
+
+
+
+@media (max-width:400px){
+    .first .img{
+        text-align: center;
+    }
+
+    .Features{
+        padding: 10px;
+    }
+    .Features a{
+        margin-left: 5px;
+    }
+    .buttonss button{
+        font-size: 10px;
+    }
+    .photos h2{
+        width: 100%;
+        font-size: 1.7rem;
+        }
+    .box_2 .row{
+        padding-top: 12rem;
+    }
+
+    .box3{
+        margin-top: 25rem;
+    }
+
+    
+.box4 .elit{
+    padding: 0;
+}
+
+.box4 .elit h5{
+    font-size: 14px;
+}
+
+.box4 .buttons{
+    padding: 0;
+}
+
+.box_2 .row .bck{
+    padding-top: 6rem;
+}
+}
+
+@media (min-width:401px) and (max-width:768px){
+    .first .img{
+        text-align: center;
+    }
+   
+    .Features{
+        padding: 10px;
+    }
+    .Features a{
+        margin-left: 5px;
+    }
+    .buttonss button{
+        font-size: 10px;
+    }
+    .photos h2{
+        width: 100%;
+        font-size: 1.7rem;
+        }
+    .box_2 .row{
+        padding-top: 12rem;
+    }
+
+    .box3{
+        margin-top: 25rem;
+    }
+
+    
+.box4 .elit{
+    padding: 0;
+}
+
+.box4 .elit h5{
+    font-size: 14px;
+}
+
+.box4 .buttons{
+    padding: 0;
+}
+
+.box_2 .row .bck{
+    padding-top: 6rem;
+}
+}
+
+@media (min-width:768px){
+    .first .img{
+        text-align: center;
+    }
+    .photo{
+        display: block;
+    }
+
+    .Features{
+        padding: 10px;
+    }
+    .Features a{
+        margin-left: 5px;
+    }
+    .buttonss button{
+        font-size: 10px;
+    }
+    .photos h2{
+        width: 100%;
+        font-size: 1.7rem;
+        }
+    .box_2 .row{
+        padding-top: 3rem;
+    }
+
+
+    
+.box4 .elit{
+    padding: 0;
+}
+
+.box4 .elit h5{
+    font-size: 14px;
+}
+
+.box4 .buttons{
+    padding: 0;
+}
+
+.box_2 .row .bck{
+    padding-top: 6rem;
+}
+}
+
+
+

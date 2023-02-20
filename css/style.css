@@ -1,0 +1,383 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.frame{
+    height: 100vh;
+    background-color: #f0f1f1;
+}
+
+.wireframe{
+    height: 100vh;
+    clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
+    background-color: black;
+    overflow: hidden;
+    position: relative;
+}
+
+.showcases{
+    padding: 5rem;
+}
+
+.showcases h2{
+    font-weight: bolder;
+    font-size: 5rem;
+}
+
+
+.showcases p{
+    width: 80%;
+    padding-top: 2rem;
+    font-size: 1.5rem;
+}
+
+.wireframe .triangle{
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    background-color: green;
+    height: 11vh;
+    width: 11vh;
+    position:absolute;
+    transform: rotate(70deg);
+    left: 45%;
+    bottom: 38%;
+}
+
+.wireframe .box1{
+    position:relative;
+    height: 15vh;
+    width: 13vh;
+    border: 3px solid white;
+    left: 45%;
+    top: 10%;
+    transform: rotate(10deg);
+}
+
+
+
+.wireframe .square{
+background-color: purple;
+clip-path: inset(5% 20% 15% 10%);
+height: 15vh;
+width: 15vh;
+position: absolute;
+top: 87.3%;
+left: 61%;
+z-index: 1;
+}
+
+
+.wireframe .circle{
+background-color: orange;
+height: 12vh;
+width: 12vh;
+position: absolute;
+border-radius: 50%;
+left: 20%;
+/* top: 3rem; */
+bottom: 1rem;
+
+}
+
+.wireframe .box2{
+    position:relative;
+    height: 25vh;
+    width: 10vh;
+    border: 3px solid white;
+    left: 68%;
+    transform: rotate(320deg);
+    bottom: 22%;
+}
+
+
+.overview{
+    height: 100vh;
+    padding-top: 90px;
+    background-color: #f0f1f1;
+}
+
+.overview img{
+    width: 100%;
+    padding-top: 4rem;
+}
+
+
+/* 
+.overview .box{
+    height: 10vh;
+    width: 20%;
+}
+
+.overview .box .community{
+    padding: 0;
+}
+
+.overview .box .community p{
+    font-size: 3px;
+    margin: 0;
+}
+
+.overview .box .community div{
+    width: fit-content;
+    margin-top: 6px;
+}
+
+.overview .box .community_img{
+    background-color: #d8d9d8;
+}
+
+.overview .box .button{
+    font-size: 2px;
+    background-color: blue;
+    border: none;
+    padding: 1px;
+}
+
+.overview .largest_1{
+    height: 10vh;
+    width: 20%;
+}
+
+.overview .largest_1 .largest{
+    height: 5vh;
+}
+
+.overview .largest_1 p{
+    font-size: 6px;
+    padding: 0;
+    margin: 0;
+}
+
+.overview .largest_1 button{
+    font-size: 1px;
+    background-color: blue;
+    border: none;
+    padding: 0.5px;
+    width: 10%;
+}
+
+.overview .largest_1 .largest_img{
+    background-color: #d8d9d8;
+    height: 5vh;
+}
+
+.overview .photo{
+    height: 10vh;
+    width: 20%;
+    background-color: #d8d9d8;
+    font-size: 5px;
+}
+
+.overview .photo i{
+    color: blue;
+}
+
+.overview .photo p{
+    margin: 0;
+}
+
+.overview .photo button{
+    
+    font-size: 4px;
+    background-color: blue;
+    border: none;
+    width: 20%;
+}
+
+.Snap{
+    height: 10vh;
+    width: 20%;
+    background-color: #d8d9d8;
+}
+
+.Snap h4{
+    font-size: 3px;
+    padding: 0;
+    margin: 0;
+}
+
+.Snap h5{
+    font-size: 2px;
+    margin: 0;
+}
+
+.Snap p{
+    font-size: 1px;
+    margin: 0;
+}
+
+/* .Snap .button{
+    font-size: 1px;
+    border: none;
+    background-color: blue;
+} */
+/* 
+.before{
+    height: 12vh;
+    width: 20%;
+    background-color: #fff;
+}
+
+.before h5{
+    font-size: 5px;
+    margin: 0;
+}
+
+.before img{
+    width: 1rem;
+    height: 1rem;
+    border-radius: 100%;
+}
+
+.before p{
+    font-size: 3px;
+    margin: 0;
+}
+
+.before button{
+    font-size: 1px;
+    border: 1px solid blue;
+    background-color: blue;
+}
+
+
+.like{
+    height: 11vh;
+    width: 20%;
+    background-color: #fff;
+    margin: 0;
+    margin-left: 1.3rem;
+}
+
+.like h5{
+    font-size: 5px;
+    margin: 0;
+}
+
+.like img{
+    width: 1rem;
+    height: 1rem;
+    border-radius: 100%;
+}
+
+.like p{
+    font-size: 3px;
+    margin: 0;
+}
+
+.like button{
+    font-size: 1px;
+    border: 1px solid blue;
+    background-color: blue;
+} */ 
+
+
+
+
+
+
+
+
+
+@media (max-width:400px){
+
+    .frame{
+        padding: 0;
+        margin: 0;
+    }
+    .wireframe{
+    height: 100vh;
+    clip-path: inset(0 0 0 0);
+    width: 100%;
+    background-color: black;
+    overflow: hidden;
+    position: relative;
+}
+
+.showcases{
+    padding: 5rem;
+}
+
+.showcases h2{
+    font-weight: bolder;
+    font-size: 5rem;
+}
+
+
+.showcases p{
+    width: 80%;
+    padding-top: 2rem;
+    font-size: 1.5rem;
+}
+
+.wireframe .triangle{
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    background-color: green;
+    height: 11vh;
+    width: 11vh;
+    position:absolute;
+    transform: rotate(70deg);
+    left: 45%;
+    bottom: 38%;
+}
+
+.wireframe .box1{
+    position:relative;
+    height: 15vh;
+    width: 13vh;
+    border: 3px solid white;
+    left: 45%;
+    top: 10%;
+    transform: rotate(10deg);
+}
+
+
+
+.wireframe .square{
+background-color: purple;
+clip-path: inset(5% 20% 15% 10%);
+height: 15vh;
+width: 15vh;
+position: absolute;
+top: 87.3%;
+left: 61%;
+z-index: 1;
+}
+
+
+.wireframe .circle{
+background-color: orange;
+height: 12vh;
+width: 12vh;
+position: absolute;
+border-radius: 50%;
+left: 20%;
+/* top: 3rem; */
+bottom: 1rem;
+
+}
+
+.wireframe .box2{
+    position:relative;
+    height: 25vh;
+    width: 10vh;
+    border: 3px solid white;
+    left: 68%;
+    transform: rotate(320deg);
+    bottom: 22%;
+}
+
+
+.overview{
+    height: 100vh;
+    padding: 5rem;
+    background-color: #f0f1f1;
+}
+
+.overview img{
+    width: 100%;
+    padding-top: 4rem;
+    height: 100%;
+}
+}
